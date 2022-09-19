@@ -9,7 +9,7 @@ public class Names {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		
-		boolean append = true;
+		boolean append = false;
         FileOutputStream fout = new FileOutputStream("D:\\COPJAVA\\names.txt",append);
 		PrintWriter pw = new PrintWriter(fout);
 		
